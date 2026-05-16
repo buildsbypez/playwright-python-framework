@@ -9,19 +9,17 @@ A Playwright + Python test automation framework built with Page Object Model (PO
 - pytest-html
 
 ## Project Structure
-qa_framework/
-├── config/
-│   └── environments.py    # Environment config and URLs
-├── pages/
-│   └── login_page.py      # Page Object Models
-├── tests/
-│   └── test_login.py      # Test suites
-├── utils/
-│   └── helpers.py         # Reusable helper functions
-├── reports/               # Generated HTML reports
-├── base_test.py           # Base test class
-├── conftest.py            # pytest fixtures
-└── requirements.txt       # Dependencies
+
+| File/Folder | Description |
+|---|---|
+| `config/environments.py` | Environment config and URLs |
+| `pages/login_page.py` | Page Object Models |
+| `tests/test_login.py` | Test suites |
+| `utils/helpers.py` | Reusable helper functions |
+| `base_test.py` | Base test class |
+| `conftest.py` | pytest fixtures |
+| `requirements.txt` | Dependencies |
+| `reports/` | Generated HTML reports |
 
 ## Setup
 1. Clone the repo
